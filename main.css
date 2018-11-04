@@ -1,0 +1,66 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(188, 194, 179);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar{
+    padding-bottom: 30pt;
+    position: sticky;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.bg{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+
+}
+
+img{
+   
+    width: 100%;
+}
+h1{
+    position: absolute center;
+  
+}
+.container{
+    background-image: url(atv_back.jpg);
+    opacity: 60;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    color: rgb(84, 93, 219);
+    padding: bottom 7000pt;;
+    height: 150pt;
+}
